@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="counter.css" />
+  </head>
+  <body>
+    <div id='header'>
+      <h1 class="logo">Word Counter</h1>
+    </div>
+    <div class="wrapper">
+      <div class="counters">
+        <div class="card">
+          <p class="title">Characters</p>
+          <p id="characters" class="number">0</p>
+        </div>
+        <div class="card">
+          <p class="title">Spaces</p>
+          <p id="spaces" class="number">0</p>
+        </div>
+        <div class="card">
+            <p class="title">Words</p>
+            <p id="words" class="number">0</p>
+          </div>
+        <div class="card">
+          <p class="title">Lines</p>
+          <p id="lines" class="number">0</p>
+        </div>
+      </div>
+
+      <div class="textfield">
+        <div class="input-wrapper">
+          <textarea
+            id="textarea"
+            type="text"
+            placeholder="Type or paste your text"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="counter.js"></script>
+  </body>
+</html>

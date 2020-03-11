@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 100vh;
+    width:100wh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2020/01/08/paint-liquid-abstract--k-wallpaper.jpg');
+  }
+  
+  #header {
+    background-color: #fff;
+    height: 60px;
+    padding: 11px 0;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background-image: url('https://lh3.googleusercontent.com/proxy/rmITH9146E1AMgCAbwymapZsYpQKyCB1y75E9CdqGgPTT-7kE-qQZa0hj3KnFW61R1W60Zdd21cmQ1TEoK5X36l2L7j16A7cSFAktaHYP3K1OwyMs25lChhHDWz3k3691gn4FS_BlK_ExQkXRcHP159t4b3d1jqkrQ');
+  }
+  
+  .logo {
+    color: cyan;
+    letter-spacing: 3px;
+    font-size: 32px;
+  }
+  
+  .counters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .card {
+    width: 200px;
+    height: 100px;
+    background-color: whitesmoke;
+    opacity: .6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .card .title {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .card .number {
+    font-size: 28px;
+  }
+  
+  .textfield {
+    width: 70%;
+    height: auto;
+    margin: 0px 15%;
+    background-color: whitesmoke;
+    opacity: .8;
+    border-radius: 10px;
+    padding: 20px 0px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  .textfield .input-wrapper {
+    width: 95%;
+    height: 200px;
+    padding: 20px 0px;
+    margin: 0px 20px;
+  }
+  
+  .textfield textarea {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+  }
+  
+
+  @media (max-width: 660px) {
+    .textfield .input-wrapper {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .card {
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+    .word-count {
+      margin-top: 30px;
+    }
+    .textfield {
+      margin-top: 100px;
+      width: 280px;
+      height: 400px;
+      margin: 0px 2% 0 4%;
+    }
+    .card{
+        height:50px;;
+        width:100px;
+    }
+    
+  }
+
+  
